@@ -1,6 +1,6 @@
 package week2;
 
-import myproject.week2.Month;
+import sorrawich.week2.Month;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

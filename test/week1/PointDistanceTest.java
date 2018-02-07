@@ -1,6 +1,6 @@
 package week1;
 
-import myproject.week1.model.Point;
+import sorrawich.week1.model.Point;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
