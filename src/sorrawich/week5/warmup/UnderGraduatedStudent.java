@@ -3,10 +3,9 @@ package sorrawich.week5.warmup;
 public class UnderGraduatedStudent extends Student {
     private String project;
 
-    public UnderGraduatedStudent(long stdId, String stdName) {
-        super(stdId, stdName);
+    public UnderGraduatedStudent() {
+        System.out.println("UnderGraduated Constructor working");
     }
-
     public UnderGraduatedStudent(long stdId, String stdName, String project) {
         super(stdId, stdName);
         this.project = project;
@@ -22,7 +21,7 @@ public class UnderGraduatedStudent extends Student {
 
     @Override
     public String toString() {
-        return "UnderGraduatedStudent{" +
+        return super.toString() + "UnderGraduatedStudent{" +
                 "project='" + project + '\'' +
                 '}';
     }

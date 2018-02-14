@@ -5,6 +5,7 @@ public class Student {
     private String stdName;
 
     public Student() {
+        System.out.println("Student Constructor working");
     }
 
     public Student(long stdId, String stdName) {
