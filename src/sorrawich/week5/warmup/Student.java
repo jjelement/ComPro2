@@ -29,6 +29,15 @@ public class Student {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if(obj != null && obj instanceof Student) {
+            Student temp = (Student) obj;
+            return temp.stdId == this.stdId;
+        }
+        return false;
+    }
+
+    @Override
     public String toString() {
         return "Student{" +
                 "stdId=" + stdId +
