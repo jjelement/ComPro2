@@ -1,4 +1,4 @@
-package sorrawich.week5.warmup;
+package sorrawich.week5;
 
 public class Student {
     private long stdId;

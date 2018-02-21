@@ -1,4 +1,4 @@
-package sorrawich.week5.warmup;
+package sorrawich.week5;
 
 public class UnderGraduatedStudent extends Student {
     private String project;

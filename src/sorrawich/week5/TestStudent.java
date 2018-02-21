@@ -1,4 +1,4 @@
-package sorrawich.week5.warmup;
+package sorrawich.week5;
 
 public class TestStudent {
     public static void main(String[] args) {
