@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49c5acaf-6b33-4421-a04e-05b6e2b5203c" name="Default" comment="remove Homework">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="49c5acaf-6b33-4421-a04e-05b6e2b5203c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,6 +120,11 @@
             <path>
               <item name="ComPro2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComPro2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComPro2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComPro2" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -447,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519660978170</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ignore .idea">
+      <created>1519661024734</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1519661024734</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -471,7 +482,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="944000" />
+    <option name="totallyTimeSpent" value="978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -533,7 +544,8 @@
     <MESSAGE value="Self2-3" />
     <MESSAGE value="Self2-2" />
     <MESSAGE value="remove Homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove Homework" />
+    <MESSAGE value="ignore .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore .idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
