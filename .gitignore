@@ -1,4 +1,5 @@
 /out
 /nbproject
 /build
-/.idea/*
+/.idea
+.idea/
