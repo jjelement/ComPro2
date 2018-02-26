@@ -1,4 +1,4 @@
-out/
-nbproject/
-build/
-.idea/
+out
+nbproject
+build
+.idea
