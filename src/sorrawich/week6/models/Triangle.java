@@ -1,4 +1,4 @@
-package sorrawich.week6;
+package sorrawich.week6.models;
 
 public abstract class Triangle extends Shape {
     private double base;

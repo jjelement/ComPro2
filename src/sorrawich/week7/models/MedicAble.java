@@ -1,4 +1,4 @@
-package sorrawich.week7;
+package sorrawich.week7.models;
 
 public interface MedicAble {
     String medicProperties();

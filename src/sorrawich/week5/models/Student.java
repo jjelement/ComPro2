@@ -1,4 +1,4 @@
-package sorrawich.week5;
+package sorrawich.week5.models;
 
 public class Student {
     private long stdId;

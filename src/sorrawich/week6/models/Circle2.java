@@ -1,4 +1,4 @@
-package sorrawich.week6;
+package sorrawich.week6.models;
 
 public class Circle2 extends Circle {
 

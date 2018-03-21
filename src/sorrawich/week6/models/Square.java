@@ -1,4 +1,4 @@
-package sorrawich.week6;
+package sorrawich.week6.models;
 
 public class Square extends Shape {
     private double side;

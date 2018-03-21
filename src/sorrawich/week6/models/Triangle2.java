@@ -1,4 +1,4 @@
-package sorrawich.week6;
+package sorrawich.week6.models;
 
 public class Triangle2 extends Triangle implements Comparable<Triangle2> {
     @Override

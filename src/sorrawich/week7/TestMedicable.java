@@ -1,5 +1,8 @@
 package sorrawich.week7;
 
+import sorrawich.week7.models.Medicine;
+import sorrawich.week7.models.Paracetamol;
+
 public class TestMedicable {
     public static void main(String[] args) {
         /*String[] ingredients = {"A", "B", "C"};

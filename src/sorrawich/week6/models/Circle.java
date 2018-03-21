@@ -1,4 +1,4 @@
-package sorrawich.week6;
+package sorrawich.week6.models;
 
 public abstract class Circle implements ShapeInterface {
     private double radius;

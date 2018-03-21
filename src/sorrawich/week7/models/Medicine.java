@@ -1,10 +1,10 @@
-package sorrawich.week7;
+package sorrawich.week7.models;
 
 public class Medicine implements MedicAble {
     private int medicId;
     private String name;
     private String[] ingredients;
-    String properties = "Medicine Properties";
+    public String properties = "Medicine Properties";
     private String medicWarning;
 
     public Medicine() {

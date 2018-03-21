@@ -1,4 +1,4 @@
-package sorrawich.week7;
+package sorrawich.week7.models;
 
 public class Paracetamol extends Medicine {
     private int size;
