@@ -2,8 +2,15 @@ package sorrawich.week7;
 
 public class Paracetamol extends Medicine {
     private int size;
-    private String properties;
-    private String medicWarning;
+    String properties = "Para Properties";
+
+    public Paracetamol() {
+    }
+
+    public Paracetamol(int size, int medicId, String name, String[] ingredients, String properties, String medicWarning) {
+        super(medicId, name, ingredients, properties, medicWarning);
+        this.size = size;
+    }
 
     public int getSize() {
         return size;
@@ -15,11 +22,21 @@ public class Paracetamol extends Medicine {
 
     @Override
     public String medicProperties() {
+        return "Paracetamol: " + super.medicProperties();
+    }
+
+    public String getProperties() {
         return properties;
     }
 
+    public void setProperties(String properties) {
+        this.properties = properties;
+    }
+
     @Override
-    public String medicWarning() {
-        return medicWarning;
+    public String toString() {
+        return super.toString() + "Paracetamol{" +
+                "size=" + size +
+                '}';
     }
 }
