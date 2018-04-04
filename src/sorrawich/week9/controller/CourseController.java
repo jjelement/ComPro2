@@ -83,7 +83,7 @@ public class CourseController {
         return courses;
     }
 
-    public <T> T execute(String sql) throws SQLException {
+    public Object execute(String sql) throws SQLException {
         Statement statement = connection.createStatement();
         boolean hasResultSet = statement.execute(sql);
         if(hasResultSet) {
@@ -96,9 +96,9 @@ public class CourseController {
                 );
                 courses.add(course);
             }
-            return (T)courses;
+            return courses;
         } else {
-            return (T)(Integer)statement.getUpdateCount();
+            return statement.getUpdateCount();
         }
     }
 

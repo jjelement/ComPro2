@@ -10,9 +10,7 @@ public class TestCourseDB {
         Course course = new Course("INT102", "Programming I");
         try {
             CourseController courseController = new CourseController("sit", "sit");
-
-            courseController.execute("SELECT * FROM course");
-
+            System.out.println(courseController.execute("INSERT INTO course(courseId, courseName) VALUES('INT106', 'Web Technology')"));
             courseController.closeCourseConnection();
         } catch (Exception e) {
             System.out.println(e);
