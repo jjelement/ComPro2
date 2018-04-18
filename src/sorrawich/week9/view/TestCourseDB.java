@@ -7,10 +7,12 @@ import java.util.ArrayList;
 
 public class TestCourseDB {
     public static void main(String[] args) {
-        Course course = new Course("INT102", "Programming I");
         try {
-            CourseController courseController = new CourseController("sit", "sit");
-            System.out.println(courseController.execute("INSERT INTO course(courseId, courseName) VALUES('INT106', 'Web Technology')"));
+            CourseController courseController = new CourseController("db.properties");
+            ArrayList<Course> courses = courseController.selectCourse();
+            for(Course course : courses) {
+                System.out.println(course);
+            }
             courseController.closeCourseConnection();
         } catch (Exception e) {
             System.out.println(e);

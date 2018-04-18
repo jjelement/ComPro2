@@ -6,6 +6,7 @@ import sorrawich.week9.model.Course;
 import javax.swing.plaf.nimbus.State;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -13,13 +14,18 @@ import java.util.Scanner;
 public class CourseController {
     private Connection connection;
 
-    public CourseController(String user, String password) throws ClassNotFoundException, SQLException {
+    public CourseController(String user, String password) throws SQLException {
         connection = ConnectionManager
             .createConnection(
                 "jdbc:derby://localhost:1527/sorrawich/sit",
                 user,
                 password
             );
+    }
+
+    public CourseController(String fileName) throws IOException, SQLException {
+        connection = ConnectionManager.createConnection(fileName);
+
     }
 
     public void createCourseTable() throws SQLException {

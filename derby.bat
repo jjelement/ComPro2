@@ -1,0 +1,1 @@
+C:\Users\INT105\derby\bin\startNetworkServer
